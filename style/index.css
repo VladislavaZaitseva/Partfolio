@@ -7,6 +7,7 @@
 
 body {
     width: 1200px;
+    background-color: #E5E5E5;
     margin: auto;
 }
 
@@ -15,6 +16,10 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-top: 15px;
+    width: 1200px;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px 0;
 }
 
 header .img-logo {
@@ -47,11 +52,13 @@ header nav p {
     background-size: contain;
     margin-top: 128px;
 }
-.preview .info{
+
+.preview .info {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .preview .info h1 {
     font: 500 60px "DM Sans";
     color: #181717;
@@ -82,4 +89,72 @@ footer .networks p {
 footer .name {
     font: 500 22px "DM Sans";
     color: #2429AF;
+}
+
+.project {
+    font: 500 24px 'DM Sans';
+    color: #181717;
+    margin-top: 128px;
+}
+
+.project .img-thumbnail {
+    background-image: url(../assets/Thumbnail.svg);
+    width: 640px;
+    height: 364px;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.line {
+    margin-top: 167px;
+    text-decoration: underline;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.project .img-thumbnail2 {
+    background-image: url(../assets/Thumbnail\ \(1\).svg);
+    width: 640px;
+    height: 364px;
+}
+
+.portfolio2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.line2 {
+    margin-top: 156px;
+    text-decoration: underline;
+}
+
+.container-3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project .img-thumbnail3 {
+    background-image: url(../assets/Thumbnail\ \(3\).svg);
+    width: 640px;
+    height: 364px;
+}
+
+.line3 {
+    margin-top: 156px;
+    text-decoration: underline;
 }
