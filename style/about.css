@@ -11,6 +11,7 @@ body {
     width: 1200px;
 }
 
+/* work with header */
 
 header {
     position: fixed;
@@ -48,6 +49,7 @@ header nav p:hover {
     text-decoration: underline;
 }
 
+/* work with about */
 
 .about {
     display: flex;
@@ -76,6 +78,8 @@ header nav p:hover {
     height: 457px;
 
 }
+
+/* work with footer */
 
 footer {
     display: flex;

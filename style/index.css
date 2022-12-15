@@ -11,15 +11,17 @@ body {
     margin: auto;
 }
 
+/* work with header */
+
 header {
+    background-color: #E5E5E5;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 15px;
+    padding: 15px 0;
     width: 1200px;
     position: fixed;
     top: 0;
-    border-bottom: 1px 0;
 }
 
 header .img-logo {
@@ -37,8 +39,17 @@ header nav {
 header nav p {
     font: 500 22px "DM Sans";
     color: #181717;
+}
+
+header nav p:not(:last-child) {
     margin-right: 27px;
 }
+
+header nav p:hover {
+    text-decoration: underline;
+}
+
+/* work with preview */
 
 .preview {
     margin-top: 128px;
@@ -70,30 +81,16 @@ header nav p {
     color: #606060;
 }
 
-footer {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 120px;
-}
+/* work with project section */
 
-footer .networks {
-    display: flex;
-}
-
-footer .networks p {
-    margin-right: 30px;
-    font: 500 22px "DM Sans";
-    color: #181717;
-}
-
-footer .name {
-    font: 500 22px "DM Sans";
-    color: #2429AF;
+.botline {
+    height: 2px;
+    background-color: #181717;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .project {
-    font: 500 24px 'DM Sans';
-    color: #181717;
     margin-top: 128px;
 }
 
@@ -101,6 +98,7 @@ footer .name {
     background-image: url(../assets/Thumbnail.svg);
     width: 640px;
     height: 364px;
+    background-repeat: no-repeat;
 }
 
 .container-1 {
@@ -111,7 +109,7 @@ footer .name {
 .portfolio1 {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-start;
 }
 
@@ -122,7 +120,7 @@ footer .name {
 
 .container-2 {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
 }
 
 .project .img-thumbnail2 {
@@ -134,7 +132,7 @@ footer .name {
 .portfolio2 {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-start;
 }
 
@@ -157,4 +155,30 @@ footer .name {
 .line3 {
     margin-top: 156px;
     text-decoration: underline;
+}
+
+/* work with footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+footer .networks {
+    display: flex;
+}
+
+footer .networks p {
+    font: 500 22px "DM Sans";
+    color: #181717;
+}
+
+footer .networks p:not(:last-child) {
+    margin-right: 30px;
+}
+
+footer .name {
+    font: 500 22px "DM Sans";
+    color: #2429AF;
 }
