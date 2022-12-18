@@ -64,6 +64,7 @@ header nav p:hover {
 .about .about-info h1 {
     font: 500 60px 'DM Sans';
     color: #181717;
+    margin-bottom: 20px;
 }
 
 .about .about-info p {
@@ -74,10 +75,61 @@ header nav p:hover {
 .about .about-img {
     background-image: url(../assets/Thumbnail\ \(1\).svg);
     background-repeat: no-repeat;
-    width: 400px;
+    width: 405px;
     height: 457px;
 
 }
+
+/* work with skills */
+
+.skills div {
+    display: flex;
+    width: 630px;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.skills div p {
+    width: 430px;
+    font: 400 20px 'DM Sans';
+    color: #181717;
+}
+
+.skills div h3 {
+    font: 500 22px 'DM Sans';
+    color: #181717;
+    text-decoration: underline;
+}
+
+.line {
+    height: 2px;
+    background-color: #181717;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+/* work with contacts */
+
+.contacts div p {
+    font: 400 32px 'DM Sans';
+    color: #181717;
+    width: 347px;
+}
+
+.contacts div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.contacts .img-rightarrow {
+    background-image: url(../assets/↓\ \(2\).svg);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+
 
 /* work with footer */
 
