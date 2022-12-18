@@ -49,86 +49,34 @@ header nav p:hover {
     text-decoration: underline;
 }
 
-/* work with about */
 
-.about {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 149px;
-}
+/* work with title */
 
-.about .about-info {
-    width: 575px;
-}
-
-.about .about-info h1 {
+.title h1 {
     font: 500 60px 'DM Sans';
     color: #181717;
-    margin-bottom: 20px;
 }
 
-.about .about-info p {
-    font: 400 24px 'DM Sans';
+.title p {
+    font: 400 22px 'DM Sans';
     color: #606060;
 }
 
-.about .about-img {
-    background-image: url(../assets/Thumbnail\ \(1\).svg);
-    background-repeat: no-repeat;
-    width: 405px;
-    height: 457px;
-
-}
-
-/* work with skills */
-
-.skills div {
+.data .email {
     display: flex;
-    width: 630px;
-    justify-content: space-between;
-    margin-top: 80px;
 }
 
-.skills div p {
-    width: 430px;
-    font: 400 20px 'DM Sans';
-    color: #181717;
-}
-
-.skills div h3 {
-    font: 500 22px 'DM Sans';
-    color: #181717;
-    text-decoration: underline;
-}
-
-.line {
-    height: 2px;
-    background-color: #181717;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-
-/* work with contacts */
-
-.contacts div p {
-    font: 400 32px 'DM Sans';
-    color: #181717;
-    width: 347px;
-}
-
-.contacts div {
+.data .number {
     display: flex;
-    justify-content: space-between;
-    margin-top: 80px;
 }
 
-.contacts .img-rightarrow {
-    background-image: url(../assets/↓\ \(2\).svg);
-    background-repeat: no-repeat;
-    width: 100%;
+button{
+    background-color: #000000;
+    color: #FFFFFF;
+    width: 162px;
+    height: 42px;
+    border-radius: 5px;
 }
-
 
 /* work with footer */
 
